@@ -1,0 +1,30 @@
+@media (max-width: 480px) {
+    header, footer {
+        background-color: blue;
+        padding: 0.5rem 0;
+    }
+    nav {
+        flex-direction: column;
+    }
+
+    .hero {
+        padding: 1rem;
+    }
+    .hero-content {
+        max-width: 100%;
+        padding-top: 0;
+    }
+    .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+        line-height: 0.8;
+    }
+    .hero p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .s1-btn {
+        flex-direction: column;
+    }
+}

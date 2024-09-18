@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    padding: 10px;
+    gap: 50px;
+}
+.grid-item {
+    background-color: rgb(192, 221, 247);
+    border: 1px dotted blue;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+/* .item1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+} */
+.item11 {
+    background-image: url(bolt02.webp);
+}
+.side-nav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color: #222;
+    padding-top: 1.5rem;
+}
+
+.side-nav a {
+    display: block;
+    color: #818181;
+    text-decoration: none;
+    font-size: 2em;
+
+}
+.side-nav a:hover {
+    color: #818;
+}
+.main {
+    margin-left: 200px;
+    padding-left: 20px;
+}

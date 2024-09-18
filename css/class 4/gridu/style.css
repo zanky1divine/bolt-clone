@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    display: grid;
+    grid-template-columns: 150px auto 400px;
+    padding: 2rem;
+}
+.nav-links {
+    text-align: center;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 0.6em;
+}
+.active  {
+    color: rgba(255, 255, 255, 1) !important;
+}
+header {
+    background-color: #5d54cc;
+    height: 100vh;
+}
+.logo{
+    color: #fff;
+    text-align: center;
+}
+.logo h1 {
+    margin: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1rem;
+}
+.container div {
+    width: 60%;
+    display: inline-block;
+}
+.fa {
+    font-size: 0.8em;
+}
+.hero-content {
+    color: #fff;
+}
+.hero-content h1 {
+    font-size: 3em;
+}
+

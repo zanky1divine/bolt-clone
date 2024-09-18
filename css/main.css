@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #2f313f;
+}
+
+header, footer {
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+}
+nav .logo a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+.grow {
+    display: inline-block;
+    transition: all 0.25s ease-out;
+}
+.grow:hover {
+    transform: scale(1.5);
+    color: #32bb78;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links li a:hover {
+    color: rgb(4, 235, 139); 
+}
+nav .logo a:hover {
+    font-size: 3rem;
+    color: rgb(4, 235, 139);
+}
+.hero {
+    background-image: url(../img/boltimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: white;
+    padding: 5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+.hero-content{
+    max-width: 600px;
+    
+}
+.hero h1{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    line-height: 1;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.btn {
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn-top{
+    color: black;
+    background-color: #32bb78;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.btn-top:hover {
+    background-color: black;
+
+}
+/* main section */
+.s1 > h1 {
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.s1-btn {
+    display: flex;
+    justify-content: center;
+}
+.s1-btn a {
+    background-color: #aca9a9;
+    color: #252525;
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.s1-container {
+    display: flex;
+}
+.s1-card {
+    flex: 1;
+    margin-top: 2rem;
+}
+.s1-card > div {
+    background-image: url(../img/bolt02.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+.s1-card > h2 {
+    margin-top: 0;
+    margin-left: 1.5rem;
+}
+/* footer */
+footer .flogo a{color: #32bb78;
+    font-size: 3rem;
+    text-decoration: none;
+    display: flex;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: #32bb78;
+}
+footer li{
+    list-style: none;
+}
+
+.flinks  {
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+}
+
+footer{
+    background-color: white;
+}
+footer ul li {
+    color: black;
+}
+.amp{
+    color: black;
+}
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+
+
